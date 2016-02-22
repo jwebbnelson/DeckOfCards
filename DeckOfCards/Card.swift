@@ -17,6 +17,7 @@ class Card {
     var value: String = ""
     var suit: String = ""
     var imageURLString: String = ""
+    var faceCard: Bool?
     
     init(jsonDictionary: [String: AnyObject]) {
         
